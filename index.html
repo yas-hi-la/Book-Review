@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Review</title>
+</head>
+<body>
+    <h1>BOOK REVIEW</h1>
+    <div class="book-container">
+        <div class="book-content">
+            <h2>Harry Potter and the Goblet of Fire</h2>
+            <h4>J K Rowling</h4>
+            <p>In the fourth Harry Potter book, Harry's connection to the dark wizard Lord Voldemort grows stronger as strange events signal Voldemort's return. At Hogwarts, the dangerous Triwizard Tournament begins, and although only students aged 17 and older are eligible, 14-year-old Harry is mysteriously chosen to compete. As he faces deadly challenges, Harry must also confront the rising threat of Voldemort, making this a major turning point in the series.</p>
+            <button onclick="del(event)">Delete</button>
+        </div>
+    </div>
+
+    <button class="add-book-button">+</button>
+
+    <div class="add-book-form">
+        <h4>Book Name</h4>
+        <input id = "book">
+        <h4>Author</h4>
+        <input id = "book-a">
+        <h4>Review of the Book</h4>
+        <textarea id = "book-r"></textarea>
+        <button id="cancel">Cancel</button>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div class="black-screen">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
